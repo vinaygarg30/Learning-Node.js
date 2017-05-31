@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname,'public')));
 //route helps to map URL to responses
 // next parameter ensure that it isn't the only route and will look for other routes too.
 app.route('/').get(function(req,res,next) {
-	res.render('index',{'Welcome to ChitChat'});
+	res.render('index',{title : 'Welcome to ChitChat'});
 })
 
 app.listen(3000,function(){
