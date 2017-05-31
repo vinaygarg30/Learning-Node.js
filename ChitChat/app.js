@@ -12,11 +12,8 @@ app.set('view engine','html');
 //To find static asset files, we need express static module
 app.use(express.static(path.join(__dirname,'public')));
 
-//route helps to map URL to responses
-// next parameter ensure that it isn't the only route and will look for other routes too.
-app.route('/').get(function(req,res,next) {
-	res.render('index',{title : 'Welcome to ChitChat'});
-})
+// Call the route module with the express, app parameters
+require('./routes/routes.js')(express,app);
 
 app.listen(3000,function(){
 	console.log('ChitChat working on port 3000');
