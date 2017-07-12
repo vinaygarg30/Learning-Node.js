@@ -1,0 +1,26 @@
+ChitChat is a multiroom chat server. 
+It lets you login with Facebook. Requires No Signup.
+Lets you create topic specific chatrooms.
+Lets you join multiple chatrooms. 
+
+
+Learning Objectives
+1. Express 4.0 is used for writing apps in Node.js.
+2. Login with Facebook integration is done using Passport(auth module for Node.js)
+3. Using MongoDB through MongoLab.com and using DAAS(Database as a Service) and for actual integration in app, Mongoose object is used. 
+4. How to create separate environments like development/production.
+5. Socket.IO - uses web sockets to write real time apps like chat server, dashboards/ 
+6. Finally, we will deploy our app on Heroku(PAAS)
+
+
+Sessions
+Stored as a combination of session and cookies using cookieparser middleware and sessions module. 
+But for production environment, we need a database to store the sessions like MongoDB or Redis. 
+
+Installation 
+To install and run locally ...
+$ git clone https://github.com/vinaygarg30/Learning-Node.js
+$ cd ChitChat/
+$ npm install
+$ node app.js
+```
