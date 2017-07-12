@@ -1,0 +1,4 @@
+{
+	"dbURL" : "mongo://chitchatuser:chitchattest@ds161021.mlab.com:61021/chitchat",
+	"sessionSecret" : "12345"
+}

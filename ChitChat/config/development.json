@@ -1,0 +1,10 @@
+{
+	"dbURL" : "mongo://chitchatuser:chitchattest@ds161021.mlab.com:61021/chitchat",
+	"sessionSecret" : "12345",
+	"fb":{
+    "appID":"541556462658054",
+    "appSecret":"621692990f689a47a71e714544513d50",
+    "callbackURL":"http://localhost:3000/auth/facebook/callback"
+  },
+  "host": "http://localhost:3000"
+}
