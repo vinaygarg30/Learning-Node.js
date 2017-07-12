@@ -2,14 +2,21 @@
   "name": "chitchat",
   "version": "1.0.0",
   "description": "Multiroom Chat Server",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
-    "hogan-express": "^0.5.2"
+    "express-session": "^1.15.3",
+    "hogan-express": "^0.5.2",
+    "mongoose": "^4.10.4",
+    "passport": "0.2.0",
+    "passport-facebook": "1.0.3",
+    "socket.io": "0.9.17"
   }
 }
