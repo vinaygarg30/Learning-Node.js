@@ -14,7 +14,7 @@
     "express": "^4.15.3",
     "express-session": "^1.15.3",
     "hogan-express": "^0.5.2",
-    "mongoose": "^4.10.4",
+    "mongoose": "^5.9.9",
     "passport": "0.2.0",
     "passport-facebook": "1.0.3",
     "socket.io": "0.9.17"
